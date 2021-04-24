@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+  import { BrowserRouter as Router, Route } from 'react-router-dom';
+  import WebSiteIndex from './pages/website/index';
+  import ForumIndex from './pages/forum/index';
+  import MiningPool from './pages/mining/pool';
+// import Page3 from './Page3';
+// import Page4 from './Page4';
+// import Cfx from './Cfx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      
+      <Router >
+        <div class="breeze-app">
+          <Route exact path="/" component={WebSiteIndex} /> 
+          <Route path="/pages/forum/index" component={ForumIndex} /> 
+          <Route path="/pages/mining/pool" component={MiningPool} /> 
+        </div>
+      </Router>
+    )
+  }
 }
-
 export default App;
