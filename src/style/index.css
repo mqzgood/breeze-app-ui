@@ -1,25 +1,19 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
 }
-@media screen and (min-width: 960px){
-  body{ background: #1d1d1d  url(../static/image/bg-1.jpg); 
-     background-size: 100%;
-    background-repeat:no-repeat;}
-}
-@media screen and (max-width: 960px){
-  body{ background: #1d1d1d  url(../static/image/bg-2.jpg); 
-     background-size: 100%;
-    background-repeat:no-repeat;}
-}
- 
+
+/* body, button, input, optgroup, select, textarea {
+  font-family: "PT Mono",monospace  !important;
+} */
 .breeze-app{
-  max-width: 1024px;
+  max-width: 960px;
   margin:0px auto;
+  margin-top: 14px;
 }
 .breeze-nav .navbar-nav .nav-link{
    color: #ffffff;
@@ -27,6 +21,38 @@ body {
 .breeze-nav .navbar-nav .nav-link:hover{
   color: #ffc107;
 }
+ 
 .breeze-btn-bord{font-weight: 600;}
 .navbar-light .breeze-toggler.navbar-toggler{border-color: #ffc107;}
+.breeze-logo{width: 158px;height: 38px;}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #ffffff;
+}
+.breeze-container{
+  padding: 3rem 1.5rem;
+}
+
+@media screen and (min-width: 960px){
+  body{ background: #1d1d1d  url(../static/image/bg-1.jpg); 
+     background-size: 100%;
+    background-repeat:no-repeat;}
+
+    .breeze-nav .navbar-nav .nav-link{
+      padding: 0px 20px;
+      font-size: 18px;
+     }
+
+}
+@media screen and (max-width: 960px){
+  body{ background: #1d1d1d  url(../static/image/bg-2.jpg); 
+     background-size: 100%;
+    background-repeat:no-repeat;}  
+
+    .navbar-light .breeze-toggler .navbar-toggler-icon {
+      background: url('../static/ico/navbar-toggler-icon.png');
+      background-repeat: no-repeat;
+      background-position: 3px 6px;
+    }
+}
+ 
 

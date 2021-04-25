@@ -1,7 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import { Button, Nav, Navbar, NavDropdown, Form, FormControl } from 'react-bootstrap';
+import { Button, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../../static/ico/logo-breeze.png"; 
 
 class BreezeNav extends React.Component {
     render() {
@@ -9,23 +10,29 @@ class BreezeNav extends React.Component {
 
             <div>
                 <Navbar bg="none" expand="lg" className="breeze-nav">
-                    <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                        <img
+                            src={logo}   
+                            className="d-inline-block align-top breeze-logo" alt="breeze"
+                        />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="breeze-toggler" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link target="_blank" href="/pages/forum/index">forum</Nav.Link>
                             <Nav.Link target="_blank" href="/pages/forum/index">Stats</Nav.Link>
                             <Nav.Link target="_blank" href="/pages/forum/index">FAQ</Nav.Link>
+                            <Nav.Link target="_blank" href="/pages/forum/index">DAO</Nav.Link>
                             <NavDropdown title="Info" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Tutorial</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">About</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                <NavDropdown.Divider /> */}
                                 <NavDropdown.Item href="#action/3.4">Privacy Tips</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
 
-                        <a href="/pages/mining/pool">
+                        <a href="/pages/mining/pool"> 
                             <Button variant="outline-warning" className="breeze-btn-bord">Launch App</Button>
                         </a>
 
