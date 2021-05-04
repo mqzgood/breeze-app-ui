@@ -1,0 +1,81 @@
+
+.breeze-main{
+overflow: hidden;
+}
+
+.app-View{
+ width: 90%;
+ float:right;
+}
+.bz-title{
+    color: #ffc107;
+    font-size: 28px;
+    font-weight: 700;
+}
+.bz-subject{
+    padding:0 ;
+}
+.bz-subject li{
+ color: #fff;
+ font-size: 16px;
+ padding: 10px 0;
+ list-style-type: disc; 
+ margin-left: 18px;
+}
+
+.breeze-btn-bord .bz_ico{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url('../../static/ico/bz_ico.png');
+    background-repeat: no-repeat;
+    background-size: 42px; 
+    margin-top: 4px;
+    background-position: 0px 2px;
+  }
+ .breeze-btn-bord:hover .bz_ico{ 
+    background-position: -23px 2px;
+  }
+
+  .bz-subtitle{ color: #ffc107;
+    font-size: 20px;
+    font-weight: 600;}
+
+  .app-bz-tree{float: left; width: 360px;}
+  .bz-text{color: #ffffff;    text-align: left;}
+  .dapp-stats{color: #ffffff; margin-top: 20px;}
+  .dapp-stats .card{background-color: transparent; 
+    border: 1px solid#ffc107;
+}
+.dapp-stats .card-body{padding: 1.25rem 0;}
+.dapp-stats .card-title.h5{text-align: center;color: #ffc107;}
+.dapp-stats .card-text{text-align: center;}
+ 
+@media screen and (min-width: 960px){
+    .breeze-theme{width: 50%;}
+    .bz-right{float: right;}
+    .bz-left{float: left;}
+    .breeze-margin-top-50{
+        margin-top: 50px;
+    }
+    .breeze-margin-top-define{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 960px){
+    .breeze-margin-top-50{
+        margin-top: 40px;
+    }
+    .breeze-margin-top-define{
+        margin-top: 40px;
+    }
+    .app-View{ 
+        float:none;
+       }
+       .app-text-center{text-align: center;}
+       .bz-subject{margin: 0px 10px;}
+       .bz-subtitle{padding: 0px 10px;}
+       .app-text-padding{padding: 0px 10px;}
+       .app-bz-treewrap{text-align: center;}
+       .app-bz-treewrap .app-bz-tree{float: none;}
+}

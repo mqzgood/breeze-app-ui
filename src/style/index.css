@@ -4,7 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;  
+  -moz-osx-font-smoothing: grayscale;   
 }
 
 /* body, button, input, optgroup, select, textarea {
@@ -23,6 +23,7 @@ body {
 }
  
 .breeze-btn-bord{font-weight: 600;}
+
 .navbar-light .breeze-toggler.navbar-toggler{border-color: #ffc107;}
 .breeze-logo{width: 158px;height: 38px;}
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
@@ -32,8 +33,76 @@ body {
   padding: 3rem 1.5rem;
 }
 
+.bz-line{
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #977305;
+}
+
+footer{
+  margin:50px 0 20px 0;
+  padding: 20px 0;
+}
+
+/* footer .f-links{display: flex; width: 200px; margin: 0px auto;}  */
+footer .f-links{float: left; } 
+footer .f-language{float: right; text-align: right;} 
+footer .is-icon{
+  float: left;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+    background-color: transparent;
+    border: none; 
+    display:block;
+    font-size:0;
+    line-height:0;
+    text-indent:-9999px;
+}
+footer .f-links .is-icon{
+  margin-right: 24px;
+}
+footer .f-language .is-icon{
+  margin-left: 24px;
+}
+footer  .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center; 
+}
+  
+footer .is-icon .trnd {
+  display: block;
+  width: 100%;
+  height: 100%; 
+  /* height: 1rem;
+  width: 1rem;  */
+  transition: background-color .15s ease-in-out; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: 22px;
+}
+
+.trnd-stats{
+  background-image: url(../static/ico/states.svg); 
+}
+.trnd-twitter { 
+  background-image: url(../static/ico/twitter.svg); 
+}
+.trnd-telegram{
+  background-image: url(../static/ico/Telegram.svg); 
+}
+.trnd-github{
+  background-image: url(../static/ico/Github.svg); 
+}
+
+.trnd-en{background-image: url(../static/ico/EN.svg); }
+.trnd-cn{background-image: url(../static/ico/CN.svg); }
+
 @media screen and (min-width: 960px){
-  body{ background: #1d1d1d  url(../static/image/bg-1.jpg); 
+  body{ background: #221c32  url(../static/image/bg-0.png); 
      background-size: 100%;
     background-repeat:no-repeat;}
 
@@ -44,7 +113,7 @@ body {
 
 }
 @media screen and (max-width: 960px){
-  body{ background: #1d1d1d  url(../static/image/bg-2.jpg); 
+  body{ background: #26213f  url(../static/image/bg-2.jpg); 
      background-size: 100%;
     background-repeat:no-repeat;}  
 
@@ -52,6 +121,9 @@ body {
       background: url('../static/ico/navbar-toggler-icon.png');
       background-repeat: no-repeat;
       background-position: 3px 6px;
+    }
+    footer{ 
+      padding: 20px 10px;
     }
 }
  
