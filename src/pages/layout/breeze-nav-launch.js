@@ -27,22 +27,7 @@ class BreezeNavLaunch extends React.Component {
 
                     </Navbar.Collapse>
                 </Navbar>
-
-                {/* <Link to="/" style={{ color: 'black' }}>
-                        <div>点击跳转到首页</div>
-                    </Link>
-                    <Link to="/pages/forum/index/" style={{ color: 'black' }}>
-                        <div>点击跳转到forum</div>
-                    </Link>
-                    <Link to="/Page3/" style={{ color: 'black' }}>
-                        <div>点击跳转到Page3</div>
-                    </Link>
-                    <Link to="/Page4/" style={{ color: 'black' }}>
-                        <div>点击跳转到Page4</div>
-                    </Link>
-                    <Link to="/cfx/" style={{ color: 'black' }}>
-                        <div>cfx</div>
-                    </Link> */}
+ 
             </div>
 
         );

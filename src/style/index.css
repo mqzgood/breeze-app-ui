@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;   
 }
-
+.bz-text-center{
+text-align: center;
+}
 /* body, button, input, optgroup, select, textarea {
   font-family: "PT Mono",monospace  !important;
 } */
@@ -38,13 +40,16 @@ body {
   width: 100%;
   border-top: 1px solid #977305;
 }
-
+:focus{
+ outline: none;
+}
 footer{
   margin:50px 0 20px 0;
   padding: 20px 0;
 }
 
 /* footer .f-links{display: flex; width: 200px; margin: 0px auto;}  */
+.f-breeze-token{color: #ffffff; padding: 10px 0;text-align: center;}
 footer .f-links{float: left; } 
 footer .f-language{float: right; text-align: right;} 
 footer .is-icon{

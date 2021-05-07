@@ -12,7 +12,7 @@ class BzdAppStates extends React.Component {
 <Container fluid="md" className="dapp-stats">
     <Row>
         <Col sm>
-            <Card style={{ width: '18rem' }}>
+            <Card>
                 <Card.Body>
                     <Card.Title>TVL</Card.Title>
                     <Card.Text>$319,224,542.27</Card.Text>
@@ -20,7 +20,7 @@ class BzdAppStates extends React.Component {
             </Card>
         </Col>
         <Col sm>
-            <Card style={{ width: '18rem' }}>
+            <Card>
                 <Card.Body>
                     <Card.Title>BREEZE PRICE</Card.Title>
                     <Card.Text>$73.51</Card.Text>
@@ -28,7 +28,7 @@ class BzdAppStates extends React.Component {
             </Card>
         </Col>
         <Col sm>
-            <Card style={{ width: '18rem' }}>
+            <Card>
                 <Card.Body>
                     <Card.Title>CONFLUX ACTIVE ADDRESSES</Card.Title>
                     <Card.Text>10,088</Card.Text>

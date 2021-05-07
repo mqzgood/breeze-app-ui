@@ -6,7 +6,7 @@ render(){
         return(
         <div>
              <BreezeNav/>
-        <div>这是社区页面</div>
+        <div>test</div>
         
         </div>
         );

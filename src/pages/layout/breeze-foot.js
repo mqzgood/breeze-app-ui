@@ -5,6 +5,9 @@ class BreezeFoot extends React.Component {
         return (
             <div className="breeze-main">
                 <footer>
+                    {/* <div className="f-breeze-token">
+                    breeze token contract: cfx:aas9czfa3zswc4y835dbtu9k0w5zvry13pbgjfwdzn 
+                    </div> */}
                     <div className="f-links">
                         <a target="_blank" rel="noreferrer" className="is-icon" href="/"  >
                             <i class="trnd trnd-stats"></i>

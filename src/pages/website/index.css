@@ -51,10 +51,17 @@ overflow: hidden;
 .dapp-stats .card-title.h5{text-align: center;color: #ffc107;}
 .dapp-stats .card-text{text-align: center;}
  
+.bz-btn-right{float: right;}
+.bz-btn-left{float: left;}
+.color-yellow{ color: #ffc107;}
+.color-yellow:hover{ color: #fdc828;}
 @media screen and (min-width: 960px){
     .breeze-theme{width: 50%;}
     .bz-right{float: right;}
     .bz-left{float: left;}
+    .breeze-margin-top-30{
+        margin-top: 30px;
+    }
     .breeze-margin-top-50{
         margin-top: 50px;
     }
@@ -63,6 +70,9 @@ overflow: hidden;
     }
 }
 @media screen and (max-width: 960px){
+    .breeze-margin-top-30{
+        margin-top: 20px;
+    }
     .breeze-margin-top-50{
         margin-top: 40px;
     }
@@ -78,4 +88,6 @@ overflow: hidden;
        .app-text-padding{padding: 0px 10px;}
        .app-bz-treewrap{text-align: center;}
        .app-bz-treewrap .app-bz-tree{float: none;}
+
+       .dapp-stats .col-sm{margin: 10px 0;}
 }

@@ -1,0 +1,161 @@
+ .mining-stats.dapp-stats .card {
+    background-color: #38606f;
+    border: 1px solid#ffc107;
+}
+.mining-stats.dapp-stats .card-title.h5 {
+    text-align: center;
+    color: #877d60;
+}
+
+.mining-opt-box{
+    width: 408px;
+    margin: 50px auto 30px auto;
+}
+.mining-opt-box a{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin: 0px 15px;
+    padding:0px 0px 0px 30px;
+    color: #ffc107;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+.add-confluxportal{background: url('../../static/ico/ConfluxPortal.png');}
+.add-moonswap{background: url('../../static/ico/MoonSwap.png');}
+
+ .mining-wrap{min-height: 480px;}
+
+.bz-mining-tab.nav-tabs {
+    border-bottom: 1px solid #ffc107; 
+}
+ 
+.bz-mining-tab.nav-tabs .nav-link{
+    color:#ffffff ; font-weight: 700;
+    margin-right: 100px;
+    padding: .3rem 1rem;
+}
+.bz-mining-tab.nav-tabs .nav-link:hover{
+    border-color: #f0ca54 #f0ca54 #ffc107;
+}
+.bz-mining-tab.nav-tabs .nav-link.active{
+    color:#495057 ; 
+    background-color: #ffc107;
+    border-color: #f0ca54 #f0ca54 #ffc107;
+}
+
+.bz-mining-tableheader.table{margin-bottom:0px}
+.bz-mining-tableheader.table thead th{
+    border: 0px;
+    padding:20px 0px 0px 0px;
+    color: #ffc107;
+    text-align:center;
+    font-weight: 600;
+}
+.bz-mining-tbody.table{margin-bottom:0}
+.bz-mining-tbody.table td
+{
+    border: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.bz-mining-Card .card{
+    background-color:transparent;
+    border: 1px solid #897c54;
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+} 
+.bz-mining-Card .card-header{padding:0px; cursor: pointer;}
+.bz-mining-Card .card-body{
+    background-color: #38606f; 
+    color: #ffffff;
+    border-top: 1px solid #897c54;
+       /* padding: 1.25rem; */
+}
+
+.width-33{
+    width: 33.33%;
+}
+.td-tokenname{
+    width: 190px;
+    margin: 0px auto;
+    text-align: left;
+}
+.mining-token-ico{height: 22px; margin-right: 10px;}
+.mining-param{
+    padding-left: 6px;
+    font-size: 18px;
+}
+.mining-down{ 
+    position: absolute;
+    top: 20px;
+    right: 3px;
+    width: 0px;
+    height: 0px;
+    content: " ";
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffc107;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.mining-claim
+{
+    font-weight: 700;
+    color: #ffc107;
+}
+  
+    .mining-from
+    {
+        display: block;overflow: hidden;
+    }
+     
+    .from-item .from-text{
+        position: relative;
+        border: 1px solid #6c757d;
+        height: 36px;
+    }
+    .from-item .from-text:hover{ 
+        border: 1px solid #ffc107;
+    }
+    .from-item .from-text input{
+        width: calc(100% - 60px);
+        background: transparent;
+        border: 0px;
+        outline: none;
+        padding: 0px 5px;
+        color: #ffffff;
+    }
+    .from-item .from-text .btn-link{
+        padding: .27rem .75rem;
+        color: #ffc107;
+    }
+    .from-item .from-text .btn-link:hover{
+       text-decoration: none;
+    }
+    .from-item .from-btn{margin: 12px;}
+    .from-item .from-btn .btn-warning.disabled, .from-item .from-btn .btn-warning:disabled {
+        color: #b6b2a6;
+        background-color: #877d60;
+        border-color: #a59a79;
+    }  
+@media screen and (min-width: 960px){
+    .from-balance{
+float: left;
+width: 40%;
+    } 
+    .from-staked{
+        float: right;
+        width: 40%;
+    }
+  }
+  @media screen and (max-width: 960px){
+    .bz-mining-tab.nav-tabs .nav-link{margin-right: 0px;}
+    .td-tokenname{
+        width: 110px; 
+    }
+  }
+   
+  
+  
