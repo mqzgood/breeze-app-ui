@@ -203,6 +203,11 @@ export default function MiningPool() {
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey={item.name}>
                                             <Card.Body>
+                                            <p>
+                                            <Button variant="warning">Approve {item.name}</Button>
+                                                    <span className="color-grey">&nbsp;&nbsp;Insufficient {item.name} Balance </span>
+                                                </p>
+
                                                 <div className="mining-from">
                                                     <div className="from-item from-balance">
                                                         <p>Balance: 0 LP</p>
@@ -230,11 +235,11 @@ export default function MiningPool() {
                                                     </div>
                                                 </div>
 
-                                                <p>
+                                                {/* <p>
                                                     <span>BREEZE/CFX Pool Token</span>
                                                     <a target="_blank" className="bz-btn-right color-yellow" href="https://moonswap.fi/">Add Liquidity</a>
-                                                </p>
-                                                <p className="bz-line"></p>
+                                                </p>*/}
+                                                <p className="bz-line"></p> 
                                                 <p>
                                                     <span>Earned：</span><span>0 BREEZE</span>
                                                     <Button variant="secondary" className="bz-btn-right mining-claim">Claim</Button>

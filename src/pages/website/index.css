@@ -55,6 +55,7 @@ overflow: hidden;
 .bz-btn-left{float: left;}
 .color-yellow{ color: #ffc107;}
 .color-yellow:hover{ color: #fdc828;}
+.color-grey{ color: #bbb8b1;}
 @media screen and (min-width: 960px){
     .breeze-theme{width: 50%;}
     .bz-right{float: right;}
