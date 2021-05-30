@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Form, Tabs, Tab, Container, Row, Col, Card, Accordion, Table, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Tabs, Tab, Container, Row, Col, Card, Accordion, Table, Button } from 'react-bootstrap';
 // import { util } from 'js-conflux-sdk'  
 import myContext from "../public/createContext";
 import BreezeNavWallet from '../layout/breeze-nav-wallet';
@@ -79,8 +79,8 @@ export default function MiningPool() {
             </div>
 
             <div className="breeze-main mining-opt-box">
-                 <a className="add-confluxportal"  href="#">Add to ConfluxPortal</a>
-                 <a className="add-moonswap" href="#">Add to MoonSwap</a>
+                <a className="add-confluxportal" href="#">Add to ConfluxPortal</a>
+                <a className="add-moonswap" href="#">Add to MoonSwap</a>
             </div>
 
             <div className="mining-wrap app-text-padding breeze-margin-top-50">
@@ -127,7 +127,7 @@ export default function MiningPool() {
                                                     <div className="from-item from-balance">
                                                         <p>Balance: 0 LP</p>
                                                         <div className="from-text">
-                                                            <input type="number" value="0" />
+                                                            <input type="number"  />
                                                             <Button variant="link">Max</Button>
                                                         </div>
                                                         <div className="from-btn">
@@ -139,7 +139,7 @@ export default function MiningPool() {
                                                     <div className="from-item from-staked">
                                                         <p>Staked: 0 LP</p>
                                                         <div className="from-text">
-                                                            <input type="number" value="0" />
+                                                            <input type="number"  />
                                                             <Button variant="link">Max</Button>
                                                         </div>
                                                         <div className="from-btn">
@@ -203,16 +203,16 @@ export default function MiningPool() {
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey={item.name}>
                                             <Card.Body>
-                                            <p>
-                                            <Button variant="warning">Approve {item.name}</Button>
+                                                <p>
+                                                    <Button variant="warning">Approve {item.name}</Button>
                                                     <span className="color-grey">&nbsp;&nbsp;Insufficient {item.name} Balance </span>
                                                 </p>
 
                                                 <div className="mining-from">
                                                     <div className="from-item from-balance">
-                                                        <p>Balance: 0 LP</p>
+                                                        <p>Balance: 0</p>
                                                         <div className="from-text">
-                                                            <input type="number" value="0" />
+                                                            <input type="number"  />
                                                             <Button variant="link">Max</Button>
                                                         </div>
                                                         <div className="from-btn">
@@ -222,9 +222,9 @@ export default function MiningPool() {
                                                         </div>
                                                     </div>
                                                     <div className="from-item from-staked">
-                                                        <p>Staked: 0 LP</p>
+                                                        <p>Staked: 0</p>
                                                         <div className="from-text">
-                                                            <input type="number" value="0" />
+                                                            <input type="number"  />
                                                             <Button variant="link">Max</Button>
                                                         </div>
                                                         <div className="from-btn">
@@ -239,7 +239,7 @@ export default function MiningPool() {
                                                     <span>BREEZE/CFX Pool Token</span>
                                                     <a target="_blank" className="bz-btn-right color-yellow" href="https://moonswap.fi/">Add Liquidity</a>
                                                 </p>*/}
-                                                <p className="bz-line"></p> 
+                                                <p className="bz-line"></p>
                                                 <p>
                                                     <span>Earned：</span><span>0 BREEZE</span>
                                                     <Button variant="secondary" className="bz-btn-right mining-claim">Claim</Button>
@@ -255,15 +255,60 @@ export default function MiningPool() {
 
                     </Tab>
                     <Tab eventKey="Withdraw" title="Withdraw">
-                        456
-                </Tab>
+                        <div className="bz-mining-Card  breeze-margin-top-50">
+                            <Card.Body>
+                                <div className="mining-from">
+                                    <div className="from-item">
+                                        <p className="font-weight">Note</p>
+                                        <div className="from-text">
+                                            <input type="text" placeholder="Please enter your note" />
+                                            <span className="bz-eye"></span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div className="font-weight breeze-margin-top-50">Recipient Address</div>
+                                <div className="color-red">Warning: Please do NOT use exchange addresses. You may lose your tokens.</div>
+                                <div className="mining-from">
+                                    <div className="from-item">
+
+                                        <div className="from-text">
+                                            <input type="number" placeholder="Please paste address here" />
+                                        </div>
+                                        <div className="from-btn withdraw-btn">
+                                            <Button variant="warning" block disabled>
+                                                Withdraw
+  </Button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Card.Body>
+
+                        </div>
+
+                    </Tab>
                     <Tab eventKey="Note" title="Note">
-                        789
-                </Tab>
+                        <div className="bz-mining-Card  breeze-margin-top-50">
+                            <Card.Body>
+                                <div className="mining-from">
+                                    <div className="from-item">
+                                        <p className="font-weight">Note</p>
+                                        <p className="bz-line"></p>
+                                        <p>#1 &nbsp;&nbsp;&nbsp;&nbsp;AB1O3O3JOOJJHFGSE8DCNL69SDFJFS1AOMNVB5</p>
+                                        <p>#2 &nbsp;&nbsp;&nbsp;&nbsp;2LJFKNBALF98AD234JKOUCSLJUDIF6SFLDJ2K1</p>
+
+                                    </div>
+                                </div>
+
+                            </Card.Body>
+
+                        </div>
+
+                    </Tab>
                 </Tabs>
             </div>
-
-
+ 
             <BreezeFoot />
 
         </div>

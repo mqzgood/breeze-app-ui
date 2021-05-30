@@ -14,58 +14,63 @@ class BzTimeline extends React.Component {
 
                     <div class="timeline-post">
                         <div class="timeline-meta for-large-icons">
-                            <div class="meta-details">Sharon Stone</div>
+                            <div class="meta-details">Planning</div>
                         </div><div class="timeline-icon icon-larger iconbg-orange icon-color-white">
                             <div class="icon-placeholder">2022<span>Q1</span></div>
                             <div class="timeline-bar"></div>
                         </div>
                         <div class="timeline-content">
-                            <h2 class="content-title">Passover</h2>
+                            <h2 class="content-title">Common Layer for DeFi Apps</h2>
                             <div class="content-details">
-                                <p>Passover marks the Israelites' liberation from slavery and their exodus                             from Egypt around 3000 years ago. They may do this by inviting people into their homes or                             giving them a gift basket.</p>
+                                <p>
+                                In 2022 Q1, we will be focused on the adoption of Breeze Protocol by establishing partnership with all mainstream DeFi apps and products by providing anonymity to them.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="timeline-post">
-                        <div class="timeline-meta for-large-icons"><div class="meta-details">Billy Matzeger</div></div>
+                        <div class="timeline-meta for-large-icons"><div class="meta-details">Planning</div></div>
                         <div class="timeline-icon icon-larger iconbg-orange icon-color-white">
                             <div class="icon-placeholder">2021<span>Q4</span></div>
                             <div class="timeline-bar"></div>
                         </div><div class="timeline-content">
-                            <h2 class="content-title">Easter Sunday</h2>
+                            <h2 class="content-title">Governance DAO</h2>
                             <div class="content-details">
-                                <p>Easter Sunday is an important day in the Christian church calendar because it                             celebrates Jesus Christ's resurrection. The Easter date depends on the ecclesiastical                             approximation of the March equinox.</p>
+                              <p>The governance DAO will be activated and take the ownership of all serving contracts to make breeze protocol fully autonomous. Voters are encourage to cross-chain vote for new anonymity pools, update the parameters, among many other initiatives.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="timeline-post">
                         <div class="timeline-meta for-large-icons">
-                            <div class="meta-details">Pierre Morgul</div>
+                            <div class="meta-details">Planning</div>
                         </div>
                         <div class="timeline-icon icon-larger iconbg-orange icon-color-white">
                             <div class="icon-placeholder">2021 <span>Q3</span></div>
                             <div class="timeline-bar"></div>
                         </div>
                         <div class="timeline-content">
-                            <h2 class="content-title">Valentine's Day</h2>
+                            <h2 class="content-title">Liftoff on BSC</h2>
                             <div class="content-details">
-                                <p>Valentine's Day is celebrated on February 14. It is a festival of romantic love and                             many people give cards, letters, flowers or presents to their spouse or partner.</p>
+                                <p>Launch Breeze Protocol with anonymity mining and liquidity mining on BSC. Breeze tokens on BSC can be seamlessly cross-chain-transferred from/to CFX and BSC at 1:1 ration, via bridges such as ShuttleFlow</p>
+                                <p>More assets will be supported by the anonymity pools on BSC via community voting.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="timeline-post">
                         <div class="timeline-meta for-large-icons">
-                            <div class="meta-details">Chris Williams</div>
+                            <div class="meta-details">Ongoing</div>
                         </div><div class="timeline-icon icon-larger iconbg-orange icon-color-white">
                             <div class="icon-placeholder">2021 <span>Q2</span></div>
                             <div class="timeline-bar"></div>
                         </div><div class="timeline-content">
-                            <h2 class="content-title">New Year's Day</h2>
+                            <h2 class="content-title">Fair Launch on Conflux</h2>
                             <div class="content-details">
-                                <p>New Year's Day falls on January 1 and marks the start of a new year according to the Gregorian calendar.                             It marks the end of New Year's Eve celebrations across and Worldwide and gives all people a chance to                             remember the previous year.</p>
+                                <p>
+                                Fair launches have always been lauded as the holy grail for a cryptocurrency. We advocate strongly for a fair launch for the community. Breeze tokens will be initially distributed to community supporters without a price or absurd valuation.
+                                </p>
                             </div>
                         </div>
                     </div>

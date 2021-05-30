@@ -24,7 +24,7 @@
 .add-confluxportal{background: url('../../static/ico/ConfluxPortal.png');}
 .add-moonswap{background: url('../../static/ico/MoonSwap.png');}
 
- .mining-wrap{min-height: 480px;}
+ .mining-wrap{min-height: 460px;}
 
 .bz-mining-tab.nav-tabs {
     border-bottom: 1px solid #ffc107; 
@@ -70,7 +70,7 @@
 .bz-mining-Card .card-body{
     background-color: #38606f; 
     color: #ffffff;
-    border-top: 1px solid #897c54;
+    /* border-top: 1px solid #897c54; */
        /* padding: 1.25rem; */
 }
 
@@ -140,6 +140,23 @@
         background-color: #877d60;
         border-color: #a59a79;
     }  
+
+    .from-item .bz-eye{
+        /* display: inline-block; */
+        float: right;
+    margin: 8px 10px 0px 0px;
+        width: 20px;
+        height: 20px;
+        background: url('../../static/ico/eye.png');
+        background-repeat: no-repeat;
+        background-size: 42px;  
+        background-position: 0px 2px;
+      }
+      /* .from-item .bz-eye:hover{ 
+        background-position: -23px 2px;
+      } */
+ 
+
 @media screen and (min-width: 960px){
     .from-balance{
 float: left;
@@ -149,6 +166,12 @@ width: 40%;
         float: right;
         width: 40%;
     }
+
+    .from-item .from-btn.withdraw-btn{
+        width: 480px;
+        margin: 12px auto;
+              }
+
   }
   @media screen and (max-width: 960px){
     .bz-mining-tab.nav-tabs .nav-link{margin-right: 0px;}
